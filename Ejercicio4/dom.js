@@ -29,6 +29,7 @@ inputFocus.addEventListener('focus', function(event) {
 inputFocus.addEventListener('input', function(event) {
     console.log(event.target.value);
 });
+
 /* Ejercicio 5
 Basandote en el array siguiente, crea una lista ul > li dinámicamente en el html 
 que imprima cada uno de los albums.
